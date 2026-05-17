@@ -96,10 +96,10 @@ export function ChatMenuItem({ chat }: ChatMenuItemProps) {
 
       if (result?.success) {
         toast.success('Chat deleted')
-        if (isActive) {
-          router.push('/')
-        }
         window.dispatchEvent(new CustomEvent('chat-history-updated'))
+        if (isActive) {
+          router.replace('/')
+        }
       } else if (result?.error) {
         toast.error(result.error)
       } else {
