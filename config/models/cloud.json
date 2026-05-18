@@ -2,20 +2,20 @@
   "version": 2,
   "models": {
     "quick": {
-      "id": "gemini-1.5-flash",
-      "name": "Gemini 1.5 Flash",
+      "id": "gemini-2.0-flash",
+      "name": "Gemini 2.0 Flash",
       "provider": "Google",
       "providerId": "google"
     },
     "adaptive": {
-      "id": "gemini-1.5-pro",
-      "name": "Gemini 1.5 Pro",
+      "id": "gemini-2.0-flash",
+      "name": "Gemini 2.0 Flash",
       "provider": "Google",
       "providerId": "google"
     },
-    "gemini-2-flash": {
-      "id": "gemini-2.0-flash",
-      "name": "Gemini 2.0 Flash",
+    "gemini-1.5-flash": {
+      "id": "gemini-1.5-flash",
+      "name": "Gemini 1.5 Flash",
       "provider": "Google",
       "providerId": "google"
     },
