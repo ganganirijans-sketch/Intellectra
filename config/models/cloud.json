@@ -2,8 +2,8 @@
   "version": 2,
   "models": {
     "quick": {
-      "id": "gemini-3.1-flash-lite-preview",
-      "name": "Gemini 3.1 Flash Lite Preview",
+      "id": "gemini-2.0-flash",
+      "name": "Gemini 2.0 Flash",
       "provider": "Google",
       "providerId": "google",
       "providerOptions": {
@@ -15,8 +15,8 @@
       }
     },
     "adaptive": {
-      "id": "gemini-3-flash-preview",
-      "name": "Gemini 3 Flash Preview",
+      "id": "gemini-2.5-flash",
+      "name": "Gemini 2.5 Flash",
       "provider": "Google",
       "providerId": "google",
       "providerOptions": {
@@ -26,6 +26,42 @@
           }
         }
       }
+    },
+    "gemini-1.5-flash": {
+      "id": "gemini-1.5-flash",
+      "name": "Gemini 1.5 Flash",
+      "provider": "Google",
+      "providerId": "google"
+    },
+    "gemini-1.5-pro": {
+      "id": "gemini-1.5-pro",
+      "name": "Gemini 1.5 Pro",
+      "provider": "Google",
+      "providerId": "google"
+    },
+    "groq-llama-3.3-70b": {
+      "id": "llama-3.3-70b-versatile",
+      "name": "Llama 3.3 70B",
+      "provider": "Groq",
+      "providerId": "groq"
+    },
+    "groq-llama-3.1-8b": {
+      "id": "llama-3.1-8b-instant",
+      "name": "Llama 3.1 8B",
+      "provider": "Groq",
+      "providerId": "groq"
+    },
+    "groq-mixtral": {
+      "id": "mixtral-8x7b-32768",
+      "name": "Mixtral 8x7B",
+      "provider": "Groq",
+      "providerId": "groq"
+    },
+    "groq-gemma2": {
+      "id": "gemma2-9b-it",
+      "name": "Gemma 2 9B",
+      "provider": "Groq",
+      "providerId": "groq"
     }
   }
 }
